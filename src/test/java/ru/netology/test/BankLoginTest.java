@@ -5,9 +5,7 @@ import ru.netology.data.DataHelper;
 import ru.netology.data.SQLHelper;
 import ru.netology.page.LoginPage;
 
-
-//import static com.codeborne.selenide.Selenide;
-import static java.nio.channels.Selector.open;
+import static com.codeborne.selenide.Selenide.open;
 import static ru.netology.data.SQLHelper.cleanAuthCodes;
 import static ru.netology.data.SQLHelper.cleanDatabase;
 
@@ -28,10 +26,6 @@ class BankLoginTest {
     @BeforeEach
     void setUp() {
         loginPage = open("http://localhost:9999", LoginPage.class);
-    }
-
-    private LoginPage open(String url, Class<LoginPage> loginPageClass) {
-        return null;
     }
 
     @Test

@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/258nx6dfcl8qa41y?svg=true)](https://ci.appveyor.com/project/yarmetal/autoqa8)
+
 # Домашнее задание к занятию «3.2. SQL»
 
 В качестве результата пришлите ссылки на ваши GitHub-проекты в личном кабинете студента на сайте [netology.ru](https://netology.ru).

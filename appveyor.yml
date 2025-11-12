@@ -17,3 +17,7 @@ install:
 build_script:
   - chmod +x gradlew
   - ./gradlew test -Dselenide.headless=true --info  # запускаем тест, флаг --info позволяет выводить больше информации
+  - name: Container start
+  - uses: hoverkraft-tech/compose-action@v2.0.1
+  - name: Waiting for сontainer start
+  - run: sleep 30

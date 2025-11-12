@@ -6,6 +6,7 @@ import ru.netology.data.SQLHelper;
 import ru.netology.page.LoginPage;
 
 import static com.codeborne.selenide.Selenide.open;
+import static java.nio.channels.FileChannel.open;
 import static ru.netology.data.SQLHelper.cleanAuthCodes;
 import static ru.netology.data.SQLHelper.cleanDatabase;
 

@@ -40,7 +40,7 @@ class BankLoginTest {
 
     @Test
     @DisplayName("Неверно указано имя пользователя")
-    void shouldErrorInvalideLogin() {
+    void shouldErrorInvalidLogin() {
         var authInfo = DataHelper.generateRandomUser();
         loginPage.validLogin(authInfo);
         loginPage.verifyErrorNotification("Ошибка! Неверно указан логин или пароль");
